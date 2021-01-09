@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;    
+}
+
+/*--------------------------------
+ header
+----------------------------------*/
+header {
+    background-color: rgba(26, 10, 56, 0.80); /* rgba(26, 10, 56, 0.53)*/
+    color: #fff;
+    z-index: 1000;
+}
+
+header .container nav img{
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+  }
+
+header .container .navbar-nav h3 {
+    color: #fff;
+}
+
+#titulo{
+   /*  background-color: rgba(240, 6, 6, 0.911); /* rgba(26, 10, 56, 0.53)*/
+    /* color: #fff; */ 
+    /* z-index: 1000; */
+    /* margin-top: 2em; */
+    padding: 80px;
+}
+
+ #titulo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em; 
+    background-color: rgba(240, 6, 6, 0.911); /* rgba(26, 10, 56, 0.53)*/
+    color: #fff; 
+    padding: 25px;
+    border-radius: 20px;  
+  
+} 
+
+#enlaceSalir{
+    /* color: #ffffff; */
+    color:rgba(240, 6, 6, 0.911);
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+   /*  margin-top: 2em; */
+    display: block;
+    padding: 30;
+    margin-top: 0.8em;
+}
+
+#enlaceSalir:hover{
+    color: rgba(26, 10, 56, 0.80);;
+}
+
+footer {
+    background-color: green; 
+    z-index: 1000;   
+}
+
+footer div {
+    color: #fff;
+    font-size: 0.9em;
+
+}
+
+/* footer div p{
+    padding: 1px;
+} */
+
+footer div #enlace{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+    margin-top: 2em;
+    display: inline;
+}
+
+footer div #enlace:hover{
+    color:  red;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------------------------
+ header
+----------------------------------*/
+header {
+    background-color: rgba(26, 10, 56, 0.80); /* rgba(26, 10, 56, 0.53)*/
+    color: #fff;
+    z-index: 1000;
+}
+
+header .container nav img{
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+  }
+
+header .container .navbar-nav h3 {
+    color: #fff;
+}
+/*--------------------------------
+ .hero
+----------------------------------*/
+
+
+.hero {
+    background-color: rgb(242, 246, 250);
+    background-repeat: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 0;
+    padding: 85px;
+  }
+
+  .hero .container .buttons{
+    text-align: center;
+  }
